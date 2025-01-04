@@ -1,3 +1,9 @@
+"""
+Use concept of recursion to check all the value. In below example we have taken binary balance tree. 
+if target < current node value then check the left node
+if target > current node value then check the right node
+
+"""
 class Node:
     def __init__(self, data):
         self._data = data
